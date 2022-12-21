@@ -1,3 +1,5 @@
+package user
+
 type CustodyAddressRoot struct {
   Result CustodyAddressResult `json:"result"`
 }

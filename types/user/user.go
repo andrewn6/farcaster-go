@@ -1,5 +1,7 @@
+package user
+
 type UserRoot struct {
-  Result Result `json:"result"i`
+  Result Result `json:"result"`
 }
 
 type Result struct {
@@ -17,7 +19,7 @@ type UserInfo struct {
   ViewerContent ViewerContext `json:"viewerContext"`
 }
 
-type Pfp Struct {
+type Pfp struct {
   URL string `json:"url"`
   Verified bool `json:"verified"`
 }
